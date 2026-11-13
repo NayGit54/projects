@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.app-container {
+    display: flex;
+}
+
+nav {
+    width: 240px;
+    background-color: #181818;
+    padding: 20px;
+    height: 100vh;
+    border-radius: 25px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    gap: 5px;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.logo .text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+ul li a {
+
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    border-radius: 5px;
+    color: #b3b3b3;
+}
+
+ul li a:hover {
+    background-color: #1db954;
+    color: white;
+
+}
+
+main {
+    flex: 1;
+}
+
+.banner {
+    background-color: darkgrey;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+.banner h1 {
+    color: white;
+}
+
+.songlist {
+    padding: 30px;
+}
+
+.songlist h2 {
+    margin-bottom: 20px;
+}
+
+.songItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #181818;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.songItem img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
